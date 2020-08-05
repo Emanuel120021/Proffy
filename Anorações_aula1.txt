@@ -44,7 +44,7 @@ Cascading StyleSheet
 
 
 
-                
+
     Padding/margin:
         Sentido horário começando por cima. Se colocar dois valores, primeiro valor em cima e em baixo e o outro 
         valor nos lados. Se colocado 3, fica: topo, laterais e bottom. Se colocar 1 valor, fica nos 4 lados.
