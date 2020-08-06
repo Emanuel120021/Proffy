@@ -28,7 +28,11 @@
 
 
 
-.input-block {position: relative;}
+.input-block, 
+.textarea-block {
+    position: relative;
+}
+
 .input-block:focus-within::after,
 .textarea-block:focus-within::after{
     content: "";
@@ -39,4 +43,10 @@
     left: 1.6rem;
     right: 1.6rem;
     bottom: 0;
+}
+
+label small {
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    color: var(--color-small-info);
 }
