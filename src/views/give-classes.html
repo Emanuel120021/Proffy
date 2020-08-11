@@ -47,7 +47,7 @@
 
 
         <main>
-            <form action="" id="create-class">
+            <form action="/save-classes" id="create-class" method="POST">
                 <fieldset>
                     <legend>Seus dados</legend>
 
@@ -121,13 +121,13 @@
 
                         <div class="input-block">
                             <label for="time_from">Das</label>
-                            <input type="time" name="time-from[]" required>
-                        </div>
-
-                        <div class="input-block">
+                            <input type="time" name="time_from[]" required>
+                          </div>
+              
+                          <div class="input-block">
                             <label for="time_to">Até</label>
-                            <input type="time" name="time-to[]" required>
-                        </div>
+                            <input type="time" name="time_to[]" required>
+                          </div>
 
                     </div>
 
